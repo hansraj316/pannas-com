@@ -1,0 +1,42 @@
+export const products = [
+  {
+    id: 'meeta-pan',
+    name: 'Meeta Pan',
+    description: 'The classic sweet pan with gulkand, fennel, and premium spices.',
+    price: 4.99,
+    image: 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=600&auto=format&fit=crop',
+    tag: 'Best Seller',
+  },
+  {
+    id: 'sada-pan',
+    name: 'Sada Pan',
+    description: 'Traditional plain pan with lime, betel nut, and katha.',
+    price: 3.99,
+    image: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=600&auto=format&fit=crop',
+    tag: 'Classic',
+  },
+  {
+    id: 'kolkata-meeta',
+    name: 'Kolkata Meeta',
+    description: 'Authentic Kolkata style sweet pan with special spices.',
+    price: 5.49,
+    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?q=80&w=600&auto=format&fit=crop',
+    tag: 'Authentic',
+  },
+  {
+    id: 'banaras-meeta',
+    name: 'Banaras Meeta',
+    description: 'The world-famous Banarasi Pan with a burst of flavors.',
+    price: 5.99,
+    image: 'https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?q=80&w=600&auto=format&fit=crop',
+    tag: 'Premium',
+  },
+  {
+    id: 'daisy-mehta',
+    name: 'Daisy Mehta',
+    description: 'Our signature fusion pan with floral notes and modern twist.',
+    price: 6.49,
+    image: 'https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?q=80&w=600&auto=format&fit=crop',
+    tag: 'Signature',
+  },
+];

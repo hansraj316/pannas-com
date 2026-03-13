@@ -1,0 +1,1 @@
+{"version":"1.0.0","algorithm":"bm25","params":{"k1":1.5,"b":0.75},"totalDocs":0,"avgFieldLengths":{"name":0,"description":0,"tags":0},"idf":{},"documents":[]}
