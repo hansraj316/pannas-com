@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pannas.com — Global Pan Storefront
 
-## Getting Started
+[![Indian Avengers](https://img.shields.io/badge/Managed%20By-Indian%20Avengers-orange?style=flat-square&logo=gitbook)](https://github.com/hansraj316/mission-control-openclaw)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com)
 
-First, run the development server:
+> High-converting e-commerce storefront for authentic Indian Pan (Paan) products — shipping to 128 countries.
+
+## What It Is
+
+Pannas.com is a premium global storefront bringing authentic Indian Pan culture worldwide. Curated catalog of 5 Pan varieties, a 128-country shipping selector with rate estimation, and multi-payment checkout (Stripe / Razorpay).
+
+## Products
+
+| Pan | Description |
+|---|---|
+| Meeta Pan | Classic sweet betel leaf with gulkand |
+| Sada Pan | Traditional plain betel leaf |
+| Kolkata Meeta | Bengali-style with dry fruits |
+| Banaras Meeta | Varanasi specialty with silver leaf |
+| Daisy Mehta | Premium house recipe, signature blend |
+
+## Tech Stack
+
+- **Framework**: Next.js (App Router)
+- **Styling**: Tailwind CSS + shadcn/ui (Card, Button, Select, Badge)
+- **Icons**: Lucide React
+- **Payments**: Stripe / Razorpay (integration ready)
+- **Shipping**: 128-country selector with logistics partners
+- **Deploy**: Vercel
+
+## Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# → http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Roadmap
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [ ] Connect Stripe live payment links per product
+- [ ] Connect Razorpay for India-first checkout
+- [ ] Replace placeholder images with professional product photography
+- [ ] Add Amazon affiliate links per SKU
+- [ ] SEO: structured data (Product schema), meta tags
+- [ ] Analytics: Vercel Analytics + conversion tracking
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## License
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
